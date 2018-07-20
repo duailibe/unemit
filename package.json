@@ -1,0 +1,28 @@
+{
+  "name": "unemit",
+  "version": "0.0.0",
+  "description": "Minimal event emitter",
+  "author": "Lucas Duailibe",
+  "repository": "duailibe/unvent",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "events",
+    "eventemitter",
+    "pubsub"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "flow check && eslint . && prettier --list-different README.md && jest"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "flow-bin": "^0.76.0",
+    "jest": "^23.4.1",
+    "prettier": "^1.13.7"
+  }
+}
