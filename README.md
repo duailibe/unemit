@@ -1,9 +1,9 @@
 # `unemit`
 
-[![Travis](https://img.shields.io/travis/com/duailibe/unemit.svg?style=flat-square)](https://travis-ci.com/duailibe/unemit)
-[![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![npm](https://img.shields.io/npm/v/unemit.svg?style=flat-square)](https://npmjs.org/unemit)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+[![Travis](https://api.travis-ci.com/duailibe/unemit.svg)](https://travis-ci.com/duailibe/unemit)
+[![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![npm](https://img.shields.io/npm/v/unemit.svg)](https://npmjs.org/unemit)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Minimal event emitter
 
