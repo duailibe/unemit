@@ -39,6 +39,8 @@ const unsubscribe = emitter.on("type", handler);
 unsubscribe();
 ```
 
+Unlike other libraries, `unevent` will prevent registering the same handler twice for the same event type.
+
 ### `Emitter.off(type, handler)`
 
 Removes a handler from events of type `type`.
