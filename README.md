@@ -1,4 +1,4 @@
-# `unemit`
+# unemit
 
 [![Travis](https://api.travis-ci.com/duailibe/unemit.svg)](https://travis-ci.com/duailibe/unemit)
 [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
