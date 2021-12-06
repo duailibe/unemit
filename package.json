@@ -12,7 +12,8 @@
     "pubsub"
   ],
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {
     "test": "flow check && eslint . && prettier --list-different README.md && jest"
