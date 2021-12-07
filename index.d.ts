@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 declare module "unemit" {
-  type Handler = (event: any) => void;
+  export type Handler = (event: any) => void;
 
   interface IUnemit {
     on(name: string, handler: Handler): () => void;
@@ -9,7 +9,7 @@ declare module "unemit" {
     emit(name: string, event: any): void;
   }
 
-  const Unemit: IUnemit;
+  const Unemit: () => IUnemit;
 
   export default Unemit;
 }
